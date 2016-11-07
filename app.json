@@ -1,0 +1,46 @@
+{
+  "pages":[
+     "pages/one/one",
+    "pages/two/two",
+    "pages/three/three",
+
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/html5/html5"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff5455",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#ff5455",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/one/one",
+        "text":"首页",
+        "iconPath":"pic/home_gray.png",
+        "selectedIconPath":"pic/home_red.png"
+
+      },
+      {
+        "pagePath":"pages/two/two",
+        "text":"发现",
+        "iconPath":"pic/detection_gray.png",
+        "selectedIconPath":"pic/detection_red.png"
+      },
+      {
+        "pagePath":"pages/three/three",
+        "text":"消息",
+        "iconPath":"pic/message_gray.png",
+        "selectedIconPath":"pic/message_red.png"
+      }
+    ],
+    "color":"gray",
+    "selectedColor":"#ff5455"
+  },
+  "debug":true
+}

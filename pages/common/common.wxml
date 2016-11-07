@@ -1,0 +1,11 @@
+
+<!--banner 下方六个分割模块-->
+<template name="sixItem_one">
+
+    <view class="sixItem">
+        <navigator url="../html5/html5?idd={{item.name}}">
+            <image class="sixItemPic" src="{{item.urls}}" mode="aspectFit"></image>
+            <view class="sixItemTitle">{{item.name}}</view>
+        </navigator>
+    </view>
+</template>

@@ -1,0 +1,124 @@
+.frame{
+    width: 100%;
+    /*height: 200rpx;*/
+}
+
+.backgroundColor{
+    background-color: cyan;
+    /*pointer-events: none;  与下面相对应*/
+    pointer-events: yes;
+    height: 350rpx;
+}
+.widthAndHeight{
+    width: 33.33%;
+    /*height: 100px;*/
+    float: left;
+    /*这个line-height就可以让文字居中 好神奇*/
+    line-height: 100px;
+}
+.allWidthAndHeight{
+    /*width: 100%;
+    height: 200px;
+    background-color: darkcyan;*/
+    /*display: inline-block;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px #e5e5e5 solid;
+    padding: 10px 0px;
+}
+.sixItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:33.33%;
+    cursor: pointer;
+    
+}
+.sixItemTitle{
+    text-align: center;
+}
+.sixItemPic{
+    height: 90px;
+    width: 90px;
+    /*background-color: cyan;*/
+    /*align-items: center;*/
+}
+
+
+.titleView{
+    margin-top: 8px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    font-size: 17px;
+}
+
+.subtitleView{
+    text-align: center;
+    line-height: 25px;
+    color: gray;
+    font-size: 13px;
+}
+
+.madelFrame{
+    margin: 10px;
+    margin-right: 0px;
+    height: 70px;
+    width: 90px;
+}
+
+.scrollView{
+    width: 100%;
+    /*很重要的一行代码 如果没有就没有滑动或者部分显示不出来  好神奇*/
+    white-space: nowrap;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.nameView{
+    font-size: 13px;
+    color: black;
+    margin-left:  10px;
+    margin-bottom: 10px;
+    width: 90px;
+}
+
+.cellBackground{
+    border-bottom:1px solid #e5e5e5;
+    display: flex;
+}
+.cellBackground .pic{
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+ .cellRight{
+    /*float: right;
+    height: 100px;*/
+    flex: 1;
+    padding-right: 10px;
+}
+.cellRight text{
+    display: block;
+    color: gray;
+    font: 12px;
+}
+.cellRight .titleText{
+    color: #202020;
+    font: 15px;
+    margin-top: 10px;
+}
+.cellRight .text{
+    margin-top: 5px;
+    color: gray;
+    font-size: 12px;
+}
+.borderSquare{
+    margin-top: 5px;
+    border-color: #ff5455;
+    border-width: 1px;
+    border-style: solid;
+    color: #ff5455;
+    font-size: 12px;
+}

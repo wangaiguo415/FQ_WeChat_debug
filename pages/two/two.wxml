@@ -1,0 +1,11 @@
+<view class="backView">
+    <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="imageFrame"></image>
+    <view style="font-size:15px; margin-left:10px;">中国军队工作组乘军机赶赴南苏丹</view>
+    <view style="margin-top:10px;">
+        <image src="/pic/nums_icon.png" class="picSet"></image>
+        <text class="textSet">维和部队</text>
+        <image src="/pic/nums_icon.png" class="picSet"></image>
+        <text class="textSet">南苏丹</text>
+    </view>
+
+</view>

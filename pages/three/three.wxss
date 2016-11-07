@@ -1,0 +1,32 @@
+.fatherView{
+    background-color: gainsboro;
+    height: 50px;
+    width: 100%;
+    
+}
+.imageSet{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    /*background-color: mediumvioletred;*/
+    float: left;
+    border-radius: 50%;
+}
+.titleText{
+    /*float: left;*/
+    font-size: 15px;
+    color: black;
+    margin: 5px;
+    margin-left: 0px;
+}
+.detailText{
+    /*float:top;*/
+    font-size: 12px;
+    color: gray;
+    margin: 8px;
+    margin-left: 0px;
+}
+.backView{
+    float: left;
+    height: 50px;
+}

@@ -1,0 +1,28 @@
+<view style="height:8px"></view>
+<view class="fatherView">
+    <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" class="imageSet"></image>
+    <view class="backView">
+          <view class="titleText">简历状态</view>
+          <view class="detailText">暂无新消息</view>
+    </view>
+</view>
+
+<view style="height:8px"></view>
+
+<view class="fatherView">
+    <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg" class="imageSet"></image>
+    <view class="backView">
+          <view class="titleText">风求小秘书</view>
+          <view class="detailText">我是风求官方账号，及时给您最新信息</view>
+    </view>
+</view>
+
+<view style="height:8px"></view>
+
+<view class="fatherView">
+    <image src="/pic/actor_home@3x.png" class="imageSet"></image>
+    <view class="backView">
+          <view class="titleText">鼎云、鼎向</view>
+          <view class="detailText">鼎云鼎向鼎云鼎向鼎云鼎向鼎云鼎向鼎云鼎向鼎云鼎向</view>
+    </view>
+</view>

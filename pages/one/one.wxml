@@ -1,0 +1,62 @@
+<import src="../common/common.wxml"/>
+<swiper class="backgroundColor" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imageUrls}}">
+        <swiper-item>
+            <image src="{{item}}" class="frame" mode="aspectFill"></image>
+        </swiper-item>
+    </block>
+</swiper>
+
+<!--<view class="allWidthAndHeight" style='text-align:center' >
+        <view class="widthAndHeight" >编导</view>
+        <view class="widthAndHeight" style='background-color:blue'>实习生</view>
+        <view class="widthAndHeight" >设计</view>
+        <view class="widthAndHeight" style='background-color:red' >运营</view>
+        <view class="widthAndHeight" style='float:left;line-height:100px' >摄像</view>
+        <view class="widthAndHeight" style='float:left;line-height:100px; background-color:purple' >编辑</view>
+</view>-->
+
+<view class="allWidthAndHeight">
+    <template is="sixItem_one" data="{{item}}" wx:for="{{sixItems}}"/>
+</view>
+
+<view>
+    <view class="titleView">名企招聘</view>
+    <view class="subtitleView">热门企业 海量职位</view>
+    <scroll-view scroll-x="true" class="scrollView" style="white-space:nowrap">
+        <block wx:for-items="{{companyList.data}}">
+            <view style="display:inline-block">
+                <image class="madelFrame" src="{{item.logo}}"></image>
+                <view class="nameView">{{item.company}}</view>
+            </view>
+        </block>
+    </scroll-view>
+</view>
+
+<view>
+    <view class="titleView">模特推荐</view>
+    <view class="subtitleView">热门企业 海量职位</view>
+    <scroll-view scroll-x="true" class="scrollView" style="white-space:nowrap">
+        <block wx:for-items="{{modelList.data}}">
+            <view style="display:inline-block">
+                <image class="madelFrame" src="{{item.cover}}"></image>
+                <view class="nameView">{{item.title}}</view>
+            </view>
+        </block>
+    </scroll-view>
+</view>
+
+
+
+<block wx:for="{{homeList.data}}">
+    <navigator url="../html5/html5?idd={{item.title}}">
+    <view class="cellBackground">
+        <image src="{{item.logo}}" class="pic"></image>
+        <view class="cellRight">
+            <view class="titleText">{{item.title}}</view>
+            <text class="borderSquare">{{item.tag}}</text>
+            <view class="text">{{item.workingTypeStr}}  {{item.workingPayStr}}  {{item.workingAgeStr}}</view>
+        </view>
+    </view>
+    </navigator>
+</block>
